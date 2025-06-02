@@ -1,0 +1,24 @@
+{
+  "name": "rolling-ball-simulation",
+  "version": "1.0.0",
+  "description": "물리 법칙에 따라 공이 경사면과 사용자가 그린 경로를 따라 굴러내려가는 시뮬레이션",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "http-server -p 3000"
+  },
+  "keywords": [
+    "simulation",
+    "physics",
+    "canvas",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
